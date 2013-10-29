@@ -2,7 +2,7 @@
     "name": "cordoval/runscope-bundle",
     "type": "symfony-bundle",
     "description": "Symfony RunscopeBundle",
-    "keywords": ["runscope, api, testing, debugging"],
+    "keywords": ["runscope", "api", "testing", "debugging"],
     "homepage": "http://craftitonline.com",
     "license": "MIT",
     "authors": [
