@@ -1,0 +1,24 @@
+{
+    "name": "cordoval/runscope-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony RunscopeBundle",
+    "keywords": ["runscope, api, testing, debugging"],
+    "homepage": "http://craftitonline.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Cordova",
+            "email": "cordoval@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.1",
+        "runscope/guzzle-plugin": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Cordoval\\RunscopeBundle": "" }
+    },
+    "target-dir": "Cordoval/RunscopeBundle"
+}
