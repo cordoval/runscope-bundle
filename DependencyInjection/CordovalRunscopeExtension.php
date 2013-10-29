@@ -25,9 +25,9 @@ class CordovalRunscopeExtension extends Extension
         $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.xml');
 
-        $container->setParameter('runscope_bucket_key', $config['cordoval_runscope']['bucket_key']);
-        $container->setParameter('runscope_auth_token', $config['cordoval_runscope']['auth_token']);
-        $container->setParameter('runscope_gateway_host', $config['cordoval_runscope']['gateway_host']);
-        $container->setParameter('runscope_target_api', $config['cordoval_runscope']['target_api']);
+        $container->setParameter('runscope_bucket_key', $config['bucket_key']);
+        $container->setParameter('runscope_auth_token', $config['auth_token']);
+        $container->setParameter('runscope_gateway_host', $config['gateway_host']);
+        $container->setParameter('runscope_target_api', $config['target_api']);
     }
 }
